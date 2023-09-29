@@ -1,4 +1,4 @@
-class persona{
+export class persona{
     private _nombre: string;
     public get nombre(): string {
         return this._nombre;
@@ -35,5 +35,9 @@ class persona{
         this._estado_Civil = estado_Civil;
     }
 
+    public cambiar_estado_Civil(nuevo_estado_Civil: string ){ 
+       
+        this._estado_Civil = nuevo_estado_Civil;
+    }
 
 }

@@ -1,4 +1,5 @@
-class empleado extends persona {
+import { persona } from "./Persona";
+ export class empleado extends persona {
   ano_Incorporacion: number;
   num_Despacho: number;
 
@@ -8,4 +9,9 @@ class empleado extends persona {
     this.num_Despacho = num_Despacho;
 
   }
+
+  public cambiar_Despacho(nuevo_Despacho: number){
+      this.num_Despacho = nuevo_Despacho;
+  }
+  
 }
