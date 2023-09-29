@@ -14,4 +14,9 @@ import { persona } from "./Persona";
       this.num_Despacho = nuevo_Despacho;
   }
   
+  imprimirEmpleado(){
+    super.imprimirPerson()
+    console.log(`El año en el que se incorporo: ${this.ano_Incorporacion}`)
+    console.log(`El despacho que se le asigno es: ${this.num_Despacho}`)
+  }
 }

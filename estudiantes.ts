@@ -13,8 +13,8 @@ export class estudiantes extends persona{
 
     }
 
-    public imprimir_estudiantes(nombre, apellido, cedula, estado_Civil, curso_Matriculado ){
-        console.log("Hola!, mi nombre es: "+ this.nombre + this.apellido + ", con cedula: " + this.cedula + ", mi estado civil es: " + this.estado_Civil + ", con un curso en: " + this.curso_Matriculado);
-
+    imprimirEstudiante(){
+        super.imprimirPerson()
+        console.log(`el curso donde esta vinculado es: ${this.curso_Matriculado}`)
     }
 }

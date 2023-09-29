@@ -40,4 +40,11 @@ export class persona{
         this._estado_Civil = nuevo_estado_Civil;
     }
 
+    imprimirPerson(){
+        console.log(`Nombre: ${this.nombre}`)
+        console.log(`Apellido: ${this.apellido}`)
+        console.log(`Cedula: ${this.cedula}`)
+        console.log(`Estado civil: ${this.estado_Civil}`)
+    }
+
 }
