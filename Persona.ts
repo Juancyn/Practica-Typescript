@@ -35,4 +35,5 @@ class persona{
         this._estado_Civil = estado_Civil;
     }
 
+    
 }
