@@ -20,16 +20,19 @@ class persona{
     public set cedula(value: number) {
         this._cedula = value;
     }
-    private _estado_civil: string;
-    public get estado_civil(): string {
-        return this._estado_civil;
+    private _estado_Civil: string;
+    public get estado_Civil(): string {
+        return this._estado_Civil;
     }
-    public set estado_civil(value: string) {
-        this._estado_civil = value;
+    public set estado_Civil(value: string) {
+        this._estado_Civil = value;
     }
 
- constructor(){ 
-        
+ constructor(nombre: string , apellido: string , cedula: number , estado_Civil:string ){ 
+        this._nombre = nombre;
+        this._apellido = apellido;
+        this._cedula = cedula;
+        this._estado_Civil = estado_Civil;
     }
 
 }
