@@ -1,8 +1,6 @@
-import { empleado } from "./empleado";
 import { estudiantes } from "./estudiantes";
 import { personal_Servicio } from "./personalServicio";
 import { profesores } from "./profesores";
-import {persona } from "./Persona";
 
  const personal_Servicio1 = new personal_Servicio("José", "Ponce" , 1312678789 , "Soltero" , 2019 , 4 , "Bar");
  const estudiantes1 = new estudiantes("Mathias", "Cevallos", 1345989807, "Soltero","Sexto Básica A");
