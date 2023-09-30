@@ -14,7 +14,7 @@ export class personal_Servicio extends empleado{
     }
 
     imprimirpersonServicio(){
-        super.imprimirPerson()
+        super.imprimirEmpleado()
         console.log(`Lugar donde esta asignado: ${this.seccion_Asignado}`)
     }
     

@@ -13,7 +13,7 @@ export class profesores extends empleado {
     }
 
     imprimirProfesor(){
-        super.imprimirPerson()
+        super.imprimirEmpleado()
         console.log(`Esta en el departamento: ${this.departamento}`)
     }
 
